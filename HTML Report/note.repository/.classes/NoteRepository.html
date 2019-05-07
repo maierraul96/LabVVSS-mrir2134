@@ -1,0 +1,62 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: NoteRepository</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">note.repository</a> ]
+</div>
+
+<h1>Coverage Summary for Class: NoteRepository (note.repository)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+</tr>
+<tr>
+  <td class="name">NoteRepository</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package note.repository;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import java.util.List;
+<i>4</i>&nbsp;
+<i>5</i>&nbsp;import note.utils.ClasaException;
+<i>6</i>&nbsp;
+<i>7</i>&nbsp;import note.model.Nota;
+<i>8</i>&nbsp;
+<i>9</i>&nbsp;public interface NoteRepository {
+<i>10</i>&nbsp;	
+<i>11</i>&nbsp;	public void addNota(Nota nota) throws ClasaException;
+<i>12</i>&nbsp;	public List&lt;Nota&gt; getNote(); 
+<i>13</i>&nbsp;	public void readNote(String fisier);
+<i>14</i>&nbsp;	
+<i>15</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2019-05-07 19:00</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: ClasaRepository</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">note.repository</a> ]
+</div>
+
+<h1>Coverage Summary for Class: ClasaRepository (note.repository)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+</tr>
+<tr>
+  <td class="name">ClasaRepository</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package note.repository;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import note.model.Corigent;
+<i>4</i>&nbsp;import note.model.Elev;
+<i>5</i>&nbsp;import note.model.Medie;
+<i>6</i>&nbsp;import note.model.Nota;
+<i>7</i>&nbsp;import note.utils.ClasaException;
+<i>8</i>&nbsp;
+<i>9</i>&nbsp;import java.util.HashMap;
+<i>10</i>&nbsp;import java.util.List;
+<i>11</i>&nbsp;
+<i>12</i>&nbsp;public interface ClasaRepository {
+<i>13</i>&nbsp;	
+<i>14</i>&nbsp;	public void creazaClasa(List&lt;Elev&gt; elevi, List&lt;Nota&gt; note);
+<i>15</i>&nbsp;	public HashMap&lt;Elev, HashMap&lt;String, List&lt;Double&gt;&gt;&gt; getClasa();
+<i>16</i>&nbsp;	public List&lt;Medie&gt; calculeazaMedii() throws ClasaException;
+<i>17</i>&nbsp;	public void afiseazaClasa();
+<i>18</i>&nbsp;	public List&lt;Corigent&gt; getCorigenti();
+<i>19</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2019-05-07 19:00</div>
+</div>
+</body>
+</html>
