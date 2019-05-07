@@ -1,0 +1,6 @@
+1;Matematica;8.0
+2;Sport;3.0
+3;Matematica;9.4
+4;Sport;5.8
+2;Matematica;4.7
+4;Matematica;8.63
